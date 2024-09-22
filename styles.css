@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007BFF; /* Blue background */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.intro {
+    background: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-block {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.project-block:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly enhanced shadow on hover */
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    color: #007BFF; /* Blue text for project titles */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #007BFF; /* Blue background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
